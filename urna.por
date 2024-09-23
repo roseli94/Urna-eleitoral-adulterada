@@ -25,13 +25,13 @@ programa
         // Menu de opções
         enquanto (verdadeiro)
         {
-            escreva("Digite 1 para iniciar a votação ou 0 para encerrar a votação: ")
+            escreva("Digite 1 para iniciar a votacao ou 0 para encerrar a votacao: ")
             leia(opcao)
 
             se (opcao == 0)
             {
                 // Exibe os resultados
-                escreva("Votação encerrada.\n")
+                escreva("Votacao encerrada.\n")
                 escreva("Votos para Prefeito:\n")
                 escreva("Herbert: ", votosHerbert, "\n")
                 escreva("Ribeiro: ", votosRibeiro, "\n")
@@ -42,7 +42,7 @@ programa
                 escreva("Barone: ", votosBarone, "\n")
                 escreva("Bidu: ", votosBidu, "\n")
                 escreva("Monteiro: ", votosMonteiro, "\n")
-                escreva("João Fera: ", votosJoaoFera, "\n")
+                escreva("Joao Fera: ", votosJoaoFera, "\n")
                 escreva("Branco: ", votosBrancoVereador, "\n")
                 escreva("Nulo: ", votosNuloVereador, "\n")
 
@@ -71,7 +71,7 @@ programa
                 }
                 senao
                 {
-                    escreva("Vereador mais votado: João Fera\n")
+                    escreva("Vereador mais votado: Joao Fera\n")
                 }
 
                 pare
@@ -102,7 +102,7 @@ programa
                     votosNuloPrefeito++
                 }
 
-                escreva("Vote para Vereador (90000 para Barone, 90999 para Bidu, 95000 para Monteiro, 95999 para João Fera, 0 para Branco, 99 para Nulo): ")
+                escreva("Vote para Vereador (90000 para Barone, 90999 para Bidu, 95000 para Monteiro, 95999 para Joao Fera, 0 para Branco, 99 para Nulo): ")
                 leia(votoVereador)
                 se (votoVereador == 90000)
                 {
